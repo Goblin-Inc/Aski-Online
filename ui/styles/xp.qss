@@ -1,0 +1,151 @@
+/* =====================================================
+   Aski Online — Windows XP Luna Blue Theme
+===================================================== */
+
+QWidget {
+    background-color: #ece9d8;
+    color: #111827;
+    font-family: "Tahoma", "Segoe UI", sans-serif;
+    font-size: 9.5pt;
+}
+
+#TopBar {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #0058ee,
+        stop:0.5 #2875f7,
+        stop:1 #0047d1);
+    border: 1px solid #003c74;
+    border-radius: 5px;
+}
+
+#TopAvatar {
+    background-color: #ffffff;
+    border: 2px solid #f59e0b;
+    border-radius: 5px;
+    font-size: 14pt;
+}
+
+#TopContactName {
+    font-weight: bold;
+    font-size: 11pt;
+    color: #ffffff;
+    background: transparent;
+}
+
+#TopContactNote {
+    font-size: 8.5pt;
+    color: #dbeafe;
+    background: transparent;
+}
+
+#TopStatus {
+    color: #86efac;
+    font-weight: bold;
+    background: transparent;
+}
+
+#ContactList {
+    background-color: #f7faff;
+    border: 1px solid #7f9db9;
+    border-radius: 4px;
+}
+
+#ContactList::item {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+#ContactList::item:selected {
+    background-color: #c1d8f0;
+    border: 1px solid #316ac5;
+}
+
+#ContactItem {
+    background: transparent;
+}
+
+#ContactAvatar {
+    background-color: #e0ecff;
+    border: 1px solid #7f9db9;
+    border-radius: 4px;
+    font-size: 13pt;
+}
+
+#ContactName {
+    font-weight: bold;
+    color: #003399;
+    background: transparent;
+}
+
+#ContactNote {
+    font-size: 8pt;
+    color: #475569;
+    background: transparent;
+}
+
+#ChatHistory {
+    background-color: #ffffff;
+    color: #111827;
+    border: 1px solid #7f9db9;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+#TypingWidget {
+    background-color: #e0ecff;
+    border: 1px solid #7f9db9;
+    border-radius: 3px;
+}
+
+#TypingLabel {
+    color: #003399;
+    font-style: italic;
+    background: transparent;
+}
+
+#ChatInput {
+    background-color: #dfe8f6;
+    border: 1px solid #7f9db9;
+    border-radius: 4px;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+    background-color: #ffffff;
+    color: #111827;
+    border: 1px solid #7f9db9;
+    border-radius: 3px;
+    padding: 5px 8px;
+}
+
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #ffffff,
+        stop:0.85 #ece9d8,
+        stop:1 #d6d2c2);
+    color: #000000;
+    border: 1px solid #003c74;
+    border-radius: 4px;
+    padding: 4px 12px;
+    min-height: 22px;
+}
+
+QPushButton:hover {
+    border: 1px solid #f59e0b;
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #fffef9,
+        stop:1 #e5e1d0);
+}
+
+QPushButton:pressed {
+    background-color: #d6d2c2;
+}
+
+#StatusBar {
+    background-color: #dedad0;
+    border-top: 1px solid #aca899;
+}
+
+#StatusText, #StatusProvider {
+    color: #334155;
+    font-size: 8.5pt;
+    background: transparent;
+}

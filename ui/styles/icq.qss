@@ -1,0 +1,154 @@
+/* =====================================================
+   Aski Online — Authentic ICQ 2003a Bevel Theme
+===================================================== */
+
+QWidget {
+    background-color: #d4d0c8;
+    color: #000000;
+    font-family: "Tahoma", "MS Sans Serif", sans-serif;
+    font-size: 9.5pt;
+}
+
+#TopBar {
+    background-color: #d4d0c8;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+}
+
+#TopAvatar {
+    background-color: #ffffff;
+    border: 1px inset #808080;
+    font-size: 14pt;
+}
+
+#TopContactName {
+    font-weight: bold;
+    font-size: 10.5pt;
+    color: #003366;
+    background: transparent;
+}
+
+#TopContactNote {
+    font-size: 8.5pt;
+    color: #404040;
+    background: transparent;
+}
+
+#TopStatus {
+    color: #008000;
+    font-weight: bold;
+    background: transparent;
+}
+
+#ContactList {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+#ContactList::item {
+    border-bottom: 1px dotted #c0c0c0;
+}
+
+#ContactList::item:selected {
+    background-color: #cce8ff;
+    color: #000000;
+}
+
+#ContactItem {
+    background: transparent;
+}
+
+#ContactAvatar {
+    background-color: #f0f0ea;
+    border: 1px solid #808080;
+    font-size: 13pt;
+}
+
+#ContactName {
+    font-weight: bold;
+    color: #000080;
+    background: transparent;
+}
+
+#ContactNote {
+    font-size: 8pt;
+    color: #505050;
+    background: transparent;
+}
+
+#ChatHistory {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 6px;
+}
+
+#TypingWidget {
+    background-color: #eae6de;
+    border: 1px solid #808080;
+}
+
+#TypingLabel {
+    color: #006600;
+    font-style: italic;
+    background: transparent;
+}
+
+#ChatInput {
+    background-color: #d4d0c8;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 4px 6px;
+}
+
+QPushButton {
+    background-color: #d4d0c8;
+    color: #000000;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #404040;
+    border-bottom: 2px solid #404040;
+    padding: 3px 10px;
+    min-height: 22px;
+}
+
+QPushButton:pressed {
+    border-top: 2px solid #404040;
+    border-left: 2px solid #404040;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+#StatusBar {
+    background-color: #d4d0c8;
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+#StatusText, #StatusProvider {
+    color: #202020;
+    font-size: 8.5pt;
+    background: transparent;
+}

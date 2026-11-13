@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+backend/data/database.db
+backend/data/config.json
+.DS_Store
+.idea/
+.vscode/
