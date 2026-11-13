@@ -63,12 +63,17 @@ sudo apt-get install -f
 ```
 Запустите **Aski Online** из меню приложений или командой `aski-online` в терминале.
 
-### Вариант 2: Запуск из исходников
+### Вариант 2: Arch Linux (`pacman`) / Запуск из исходников
 ```bash
 git clone https://github.com/Goblin-Inc/Aski-Online.git
 cd Aski-Online
-pip install -r requirements.txt
+
+# Arch Linux:
+sudo pacman -S python python-pyqt6 python-requests
 python3 main.py
+
+# Либо через универсальный скрипт (Arch / Ubuntu):
+./install.sh
 ```
 
 ---
